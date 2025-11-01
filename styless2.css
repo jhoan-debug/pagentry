@@ -1,7 +1,6 @@
-p2{
-    color: rgb(rgb(0, 0, 0), green, blue);
-    font-size: 20px;
-    text-align: center;
+body{
+    background-color: rgb(rgb(116, 0, 0));
+
 }
 
 h2{
@@ -12,24 +11,30 @@ h2{
 }
 
 h1{
-    color: green;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     text-align: left;
     margin-left: 100px;
-} 
+}
 
-ul{
-    color: gold;
+form{
+    color: white;
+    border-bottom: 5px solid whitesmoke;
+    border-top: 5px solid whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: left;
 }
-body{
-    background-color: greenyellow;
-}
+button{
+    background-color: gold;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}   
+
 a{
-    border-color: white;
+    color: gold;
 }
 
 footer{
@@ -37,17 +42,3 @@ footer{
     border: 5px solid white;
     padding: 0% 5%;
 }
-
-::file-upload-button{
-    background-color: white;    
-    color: white;
-    font-size: 60px;
-    text-align: center;
-}
-
-::file-selector-button{
-    background-color: white;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}   
